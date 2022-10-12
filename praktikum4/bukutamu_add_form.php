@@ -9,7 +9,7 @@
             $email = $_POST["email"]; 
             $komentar = $_POST["komentar"];
             $conn=mysqli_connect
-("localhost","root","","db_kelas2a") 
+("localhost","root","","db_2a_mahasiswa") 
             or die ("koneksi gagal");   
             echo "Nama      : $nama <br>";
             echo "Email     : $email <br>";

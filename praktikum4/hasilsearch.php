@@ -1,7 +1,7 @@
 <?php
     $kolom=$_POST['kolom'];
     $cari=$_POST['cari'];
-    $conn=mysqli_connect("localhost","root","","db_kelas2a");
+    $conn=mysqli_connect("localhost","root","","db_2a_mahasiswa");
     $hasil=mysqli_query($conn,"select * from bukutamu 
 where $kolom like '%$cari%'");
     $jumlah=mysqli_num_rows($hasil);
